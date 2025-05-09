@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBC AI Tutor | Personalized Learning</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">CBC<span>AI</span></div>
+            <ul id="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="menu-icon"><a href="javascript:void(0);" onclick="toggleMenu()">☰</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Personalized CBC Learning</h1>
+            <p>AI-generated quizzes tailored to your child's grade level</p>
+            <button id="demo-btn">Try Free Demo</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>Made for Kenyan Parents</h2>
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-number">87%</span>
+                <p class="stat-text">Parents struggle with CBC homework</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">5+</span>
+                <p class="stat-text">Subjects covered</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">24/7</span>
+                <p class="stat-text">Learning support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Demo Section -->
+    <section class="quiz-section">
+        <h2>Interactive Demo</h2>
+        <div id="quiz-container"></div>
+        <div id="quiz-result"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get Started Today</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="phone">M-Pesa Number:</label>
+                <input type="tel" id="phone" placeholder="07XXXXXXXX" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Child's Grade:</label>
+                <select id="grade" required>
+                    <option value="">Select Grade</option>
+                    <option value="1">Grade 1</option>
+                    <option value="2">Grade 2</option>
+                    <option value="3">Grade 3</option>
+                </select>
+            </div>
+            <button type="submit">Request Callback</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 CBC AI Tutor | M-Pesa Paybill: 123456</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
