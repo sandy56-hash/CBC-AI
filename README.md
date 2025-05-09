@@ -3,6 +3,8 @@
 ## 🌍 Project Overview
 **Objective**: Develop a responsive web platform providing AI-generated quizzes aligned with Kenya's CBC curriculum to help parents support their children's education.
 
+The site is live at: https://sandy56-hash.github.io/CBC-AI/
+
 **Key Features**:
 - Interactive quiz generator
 - Mobile-first responsive design
